@@ -2,7 +2,7 @@ const express = require("express");
 const cors = require("cors");
 require("dotenv").config();
 
-const getSkillrackData = require("./utils/scrapeResume");
+const getSkillrackData = require("./scrapeResume");
 
 const app = express();
 app.use(cors());
