@@ -1,7 +1,0 @@
-services:
-  - type: web
-    name: kyrocount-backend
-    env: python
-    plan: free
-    buildCommand: ""
-    startCommand: "python app.py"
